@@ -1,0 +1,18 @@
+from distutils.core import setup
+
+setup(
+    name='django-api-models',
+    version='0.1.0',
+    author='Igor Campbell',
+    author_email='igorcamp@gmail.com',
+    packages=['api_models'],
+    license='LICENSE.txt',
+    description='Django API Models',
+    long_description=open('README.md').read(),
+    install_requires=[
+        "Django >= 1.7",
+        "requests >= 2.7.0",
+        "djangotoolbox >= 1.6.2",
+    ],
+    url='https://github.com/igorcamp/django-api-models',
+)
